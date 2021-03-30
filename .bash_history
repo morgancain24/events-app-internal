@@ -14,3 +14,10 @@ npm state
 git config --global user.email "your_email_on_github"
 git config --global user.name "your_github_user_name"
 git init
+git add .
+git commit -m "Initial commit"
+git remote add origin your-git-external-repo-address
+git push -u origin master
+git config --global user.email "your_email_on_github"
+git config --global user.name "your_github_user_name"
+git init
